@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carts",
+  "info": {
+    "singularName": "cart",
+    "pluralName": "carts",
+    "displayName": "Cart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_name": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "branch_name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
